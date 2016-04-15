@@ -1,0 +1,9 @@
+h1 {
+  font-family: 'Passion One', sans-serif;
+  font-size: 5em;
+}
+
+h2, h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: normal;
+}
