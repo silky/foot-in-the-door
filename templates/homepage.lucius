@@ -1,6 +1,9 @@
 h1 {
     text-align: center;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+}
+h1.jumbotron {
+  color: #3ba7ff;
 }
 li {
     line-height: 2em;

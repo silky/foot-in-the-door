@@ -18,3 +18,11 @@ stack build yesod-bin cabal-install --install-ghc
 ````
 stack exec -- yesod devel
 ````
+
+
+## TODO:
+
+1. Trello
+2. Example data
+3. ideas: community should approve companies
+          - 
