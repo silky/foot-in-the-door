@@ -63,3 +63,7 @@ div.usm {
 div.esm {
   background: #D199FF;
 }
+
+h2.title {
+  border-bottom: solid 1px black;
+}
