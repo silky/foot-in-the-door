@@ -17,7 +17,7 @@
   <div class="row">
     <div class="col-lg-4 col-md-6 text-center">
       <div class="service-box">
-        <i class="fa fa-4x fa-smile-o wow bounceIn text-primary">
+        <img src="/static/img/UnestablishedSkilledMigrant.jpg">
         <h3>
           <a href=@{NewToAustraliaR}>New to Australia
         <p class="text-muted">
@@ -26,13 +26,13 @@
 
     <div class="col-lg-4 col-md-6 text-center">
       <div class="service-box">
-        <i class="fa fa-4x fa-users wow bounceIn text-primary" data-wow-delay=".1s">
+        <img src="/static/img/Mentor.jpg">
         <h3>Support my community
         <p class="text-muted">Help a skilled professional migrant get job ready and setup for success.
 
     <div class="col-lg-4 col-md-6 text-center">
       <div class="service-box">
-        <i class="fa fa-4x fa-line-chart wow bounceIn text-primary" data-wow-delay=".2s">
+        <img src="/static/img/Business.jpg">
         <h3>Engage skilled workers
         <p class="text-muted">Find a talented professional your competition is overlooking!
 
