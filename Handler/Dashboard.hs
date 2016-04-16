@@ -1,6 +1,7 @@
 module Handler.Dashboard where
 
 import Import
+import Handler.Common
 
 data Mentor = M {
       mName :: Text
@@ -18,6 +19,14 @@ mentors = [
     , M "Edith" "edith.png" "i am a doctor in melbourne"
     , M "Fred" "fred.png" "i am a doctor in melbourne"
     , M "Georgia" "georgia.png" "i am a doctor in melbourne"
+  ]
+
+
+upcomingEvents :: [Event]
+upcomingEvents = [
+      EV "Monthly Doctor Meetup" "meetup.png" "Come join us at our regular Doctor meetup!"
+    , EV "DrResumeGenie - Resume skills" "genie.png" "DrResumeGenie is in."
+    , EV "Do doctors need LinkedIn?" "linkedin.png" "We survey peoples feeling on this matter."
   ]
 
 getDashboardR :: Handler Html

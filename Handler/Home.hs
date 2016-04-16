@@ -4,13 +4,8 @@ import Import
 import Yesod.Form.Bootstrap3 (BootstrapFormLayout (..), renderBootstrap3,
                               withSmallInput)
 import Text.Julius (RawJS (..))
+import Handler.Common
 
-
-data Event = EV {
-      eName  :: Text
-    , eImage :: Text
-    , eDesc  :: Text
-  }
 
 upcomingEvents :: [Event]
 upcomingEvents = [
