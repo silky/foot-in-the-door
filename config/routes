@@ -4,7 +4,7 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET POST
+/               HomeR           GET POST
 /NewToAustralia NewToAustraliaR GET
-/Dashboard DashboardR GET
-/MentorProfile MentorProfileR GET
+/Dashboard      DashboardR      GET
+/MentorProfile  MentorProfileR  GET

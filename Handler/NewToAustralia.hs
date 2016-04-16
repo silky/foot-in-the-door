@@ -4,10 +4,9 @@ import           Import
 import           Form
 import           Yesod.Form.Bootstrap3           (renderBootstrap3)
 
-
 profList :: [Text]
 profList = [
-    "Accountant"
+      "Accountant"
     , "Engineer"
     , "Doctor"
     , "Nurse"
@@ -18,7 +17,7 @@ profList = [
 
 
 getNewToAustraliaR :: Handler Html
-getNewToAustraliaR =
+getNewToAustraliaR = do
       defaultLayout $ do
           setTitle "Foot in the door! - New to Australia"
           $(widgetFile "newtoaustralia")

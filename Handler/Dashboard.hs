@@ -10,7 +10,7 @@ data Mentor = M {
 
 mentors :: [Mentor]
 mentors = [
-     M "Joe" "joe.png" "I'm experienced with working in local hospitals and with the adminstration of hospitals"
+      M "Joe" "joe.png" "I'm experienced with working in local hospitals and with the adminstration of hospitals"
     , M "Alice" "alice.png" "i am a doctor in melbourne"
     , M "Bob" "bob.png" "i am a doctor in melbourne"
     , M "Carlos" "carlos.png" "i am a doctor in melbourne"
