@@ -10,8 +10,11 @@
                     free to download, and easy to use. No strings attached!
 
 
-<section>
+<section.jobs>
+  <label for="srch">Filter
+  <input.big type="text" id="srch" />
+  <hr />
   <div class="profs">
   $forall p <- profList
-    <span.prof>
-      #{p}
+    <div.prof>
+      <div> #{p}
