@@ -1,5 +1,0 @@
-var elem = document.querySelector('.events');
-var msnry0 = new Masonry(elem, {
-  itemSelector: '.event',
-  columnWidth: 340
-});

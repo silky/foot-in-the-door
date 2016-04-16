@@ -1,41 +1,7 @@
-<.page-header>
-  <h2.message>
-    Connecting skilled migrants with mentors and employment opportunities.
-
-  <h2>
-    I am:
-
-<div.action.usm>
-  <span>
-    <h2>
-      <a href=@{NewToAustraliaR}> _{MsgNewToAustralia}
-
-<div.action.esm>
-  <span>
-    <h2> _{MsgEstablishedInAustralia}
-
-<div.action.biz>
-  <span>
-    <h2> _{MsgABusiness}
-
-<br style="clear: both;" />
-
-<hr />
-
-<section.list-group>
-  <p>
-    Big photo; list of jobs available, comments by previous people
-
-
-<h2>Community
-  <small> (Upcoming community events)
-
-<div.events>
-  <div.event>
-    <h3> I am a skilled doctor
-  <div.event>
-    <h3> I am a doctor in Melbourne
-  <div.event>
-    <h3> We are looking for a doctor in Dandenong
-  <div.event>
-    <h3> More things.
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>Foot in the door!
+            <hr />
+            <p>Connecting skilled migrants with mentors and employment opportunities.
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More
