@@ -14,9 +14,9 @@
 
 <div class="container">
   <p> Below are all the open interships and related corporate activities
-      in your chosen field. If you see something of interest then apply;
-      or chat to a <a href="#mentor">mentor</a> about how you must best
-      approach it!
+      \ in your chosen field. If you see something of interest then apply;
+      \ or chat to a <a href="#mentor">mentor</a> about how you must best
+      \ approach it!
   <div class="row">
   $forall ishp <- internships
     <div class="col-lg-4 col-md-6 text-center">

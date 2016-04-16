@@ -17,8 +17,8 @@ data Internship = ISHP {
 
 internships :: [Internship]
 internships = [
-      ISHP "ACME Civil Engineering" "civ.png" "Worked on roads? We want you."
-    , ISHP "ACME Gardening" "garden.png" "Love flowers? We love you!"
+      ISHP "ACME Nurse Shift Company" "civ.png" "Worked on roads? We want you."
+    , ISHP "ACME Local GP" "garden.png" "We are having an open day. Love flowers? We love you!"
   ]
 
 mentors :: [Mentor]

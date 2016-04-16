@@ -28,3 +28,16 @@ label {
 section.jobs, section.mentors {
   margin: 30px;
 }
+
+.prof-box:hover {
+  background: #eaeaea;
+  cursor: pointer;
+}
+
+.prof-box-active {
+  background: #eaeaea;
+}
+
+.prof-box {
+  height: 120px;
+}

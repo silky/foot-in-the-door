@@ -1,5 +1,5 @@
-var elem = document.querySelector('.profs');
-var msnry0 = new Masonry( elem, {
-  itemSelector: '.prof',
-  columnWidth: 340
+$(document).ready(function() {
+  $(".prof-box").click(function () {
+    $(this).toggleClass("prof-box-active");
+  });
 });
