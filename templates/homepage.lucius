@@ -28,6 +28,12 @@ div.action {
   width: 30%;
   float: left;
   height: 250px;
+  text-align: center;
+}
+
+div.action span {
+  height: 250px;
+  margin: auto;
 }
 
 div.biz {
