@@ -7,3 +7,12 @@
 
 <h2.q>
   What job would you like to do?
+
+
+<ol>
+  <li> Accountant
+  <li> Doctor
+
+<p> If your desired job is not on the list, please enter it below:
+
+<input.big type="text">
