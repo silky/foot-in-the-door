@@ -26,6 +26,15 @@
     Big photo; list of jobs available, comments by previous people
 
 
-<h3>Community
+<h2>Community
+  <small> (Upcoming community events)
 
-<p>List of upcoming community events
+<div.events>
+  <div.event>
+    <h3> Thing
+  <div.event>
+    <h3> Other thing
+  <div.event>
+    <h3> Guess what?
+  <div.event>
+    <h3> More things.
