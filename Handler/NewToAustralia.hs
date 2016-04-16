@@ -4,15 +4,20 @@ import           Import
 import           Form
 import           Yesod.Form.Bootstrap3           (renderBootstrap3)
 
-profList :: [Text]
+
+data Profession = P {
+    pName :: Text
+  , pDesc :: Text
+}
+profList :: [Profession]
 profList = [
-      "Accountant"
-    , "Engineer"
-    , "Doctor"
-    , "Nurse"
-    , "Architect"
-    , "Basketball Coach"
-    , "Software Developer"
+      P "Accountant" "You've worked with handling money and paying company accounts."
+    , P "Engineer" "Building machines, working on roads, electrical work."
+    , P "Doctor" "Medical practicioner, diagnosing patients."
+    , P "Nurse" "Medial practicioner, working directly with patients and applying treatments."
+    , P "Architect" "Building construction and planning layouts of towns."
+    , P "Sports scientist" "Coaching, training athletes"
+    , P "Software developer" "Working with computers; arranging 1s and 0s."
   ]
 
 
