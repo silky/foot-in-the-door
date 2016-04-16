@@ -64,6 +64,6 @@
   $forall m <- mentors
     <div class="col-lg-4 col-md-6 text-center">
       <div class="service-box">
-        <h3>#{mName m}
+        <a href=@{MentorProfileR}>#{mName m}
         <p class="text-muted">
             #{mDesc m}

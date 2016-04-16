@@ -23,14 +23,14 @@ internships = [
 
 mentors :: [Mentor]
 mentors = [
-      M "Joe" "joe.png" "I'm experienced with working in local hospitals and with the adminstration of hospitals"
-    , M "Alice" "alice.png" "i am a doctor in melbourne"
-    , M "Bob" "bob.png" "i am a doctor in melbourne"
-    , M "Carlos" "carlos.png" "i am a doctor in melbourne"
-    , M "David" "david.png" "i am a doctor in melbourne"
-    , M "Edith" "edith.png" "i am a doctor in melbourne"
-    , M "Fred" "fred.png" "i am a doctor in melbourne"
-    , M "Georgia" "georgia.png" "i am a doctor in melbourne"
+      M "Bilmur" "bilmur.png" "I'm experienced with working in local hospitals and with the adminstration of hospitals"
+    , M "Alice" "alice.png" "I am a doctor in Melbourne"
+    , M "Bob" "bob.png" "I am a doctor in Melbourne"
+    , M "Carlos" "carlos.png" "I am a doctor in Melbourne"
+    , M "David" "david.png" "I am a doctor in Melbourne"
+    , M "Edith" "edith.png" "I am a doctor in Melbourne"
+    , M "Fred" "fred.png" "I am a doctor in Melbourne"
+    , M "Georgia" "georgia.png" "I am a doctor in Melbourne"
   ]
 
 
