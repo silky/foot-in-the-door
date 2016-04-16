@@ -1,0 +1,30 @@
+div.prof, div.mentor {
+  float: left;
+  background: #eaeaea;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+div.prof div, div.mentor div {
+  width: 340px;
+  margin: auto;
+}
+
+input.big {
+  padding: 5px;
+  margin: 10px;
+  width: 80%;
+  font-size: 1.5em;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+section.jobs, section.mentors {
+  margin: 30px;
+}

@@ -1,0 +1,5 @@
+var elem = document.querySelector('.mentors');
+var msnry0 = new Masonry( elem, {
+  itemSelector: '.mentor',
+  columnWidth: 340
+});
