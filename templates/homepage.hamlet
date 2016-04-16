@@ -8,15 +8,15 @@
 <div.action.usm>
   <span>
     <h2>
-      <a href=@{NewToAustraliaR}> New to Australia
+      <a href=@{NewToAustraliaR}> _{MsgNewToAustralia}
 
 <div.action.esm>
   <span>
-    <h2> Working in Australia
+    <h2> _{MsgEstablishedInAustralia}
 
 <div.action.biz>
   <span>
-    <h2> A business
+    <h2> _{MsgABusiness}
 
 <br style="clear: both;" />
 
