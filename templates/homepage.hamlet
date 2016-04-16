@@ -5,17 +5,20 @@
   <h2.message>
     Connecting skilled migrants with mentors and employment opportunities.
 
+  <h2.message>
+    I am:
+
 <div.action.usm>
   <span>
-    <h2> I'd love to work with you
+    <h2> New to Australia
 
 <div.action.esm>
   <span>
-    <h2> How can I help
+    <h2> Working in Australia
 
 <div.action.biz>
   <span>
-    <h2> We want to work with you
+    <h2> A business
 
 <br style="clear: both;" />
 
@@ -31,10 +34,10 @@
 
 <div.events>
   <div.event>
-    <h3> Thing
+    <h3> I am a skilled doctor
   <div.event>
-    <h3> Other thing
+    <h3> I am a doctor in Melbourne
   <div.event>
-    <h3> Guess what?
+    <h3> We are looking for a doctor in Dandenong
   <div.event>
     <h3> More things.
