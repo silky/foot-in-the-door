@@ -1,0 +1,8 @@
+span.prof {
+  float: left;
+  width: 340px;;
+  height: 100px;
+  background: #eaeaea;
+  margin: 10px;
+  padding: 10px;
+}

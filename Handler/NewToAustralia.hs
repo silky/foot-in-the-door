@@ -4,6 +4,19 @@ import           Import
 import           Form
 import           Yesod.Form.Bootstrap3           (renderBootstrap3)
 
+
+profList :: [Text]
+profList = [
+    "Accountant"
+    , "Engineer"
+    , "Doctor"
+    , "Nurse"
+    , "Architect"
+    , "Basketball Coach"
+    , "Software Developer"
+  ]
+
+
 getNewToAustraliaR :: Handler Html
 getNewToAustraliaR =
       defaultLayout $ do

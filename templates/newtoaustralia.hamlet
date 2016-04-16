@@ -10,25 +10,8 @@
                     free to download, and easy to use. No strings attached!
 
 
-<section id="portfolio">
-    <div class="container-fluid">
-        <div class="row no-gutter">
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                          <div class="project-category">
-                            Accountant
-                          <div class="project-name">
-                            Project Name
-
-
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                          <div class="project-category">
-                            Finance Manager
-                          <div class="project-name">
-                            Project Name
+<section>
+    <div class="profs">
+        $forall p <- profList
+          <span.prof>
+              #{p}
