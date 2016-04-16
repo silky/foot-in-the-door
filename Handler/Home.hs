@@ -15,11 +15,11 @@ import Text.Julius (RawJS (..))
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
-        setTitle "Foot in the door!"
+        setTitleI MsgSiteTitle
         $(widgetFile "homepage")
 
 postHomeR :: Handler Html
 postHomeR = do
     defaultLayout $ do
-        setTitle "Foot in the door!"
+        setTitleI MsgSiteTitle
         $(widgetFile "homepage")
