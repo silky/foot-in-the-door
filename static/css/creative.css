@@ -134,7 +134,7 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #ffc800;
     }
 
     .navbar-default .nav > li>a,
@@ -472,4 +472,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+h3.on-top span {
+  background: black;
+  line-height: 1.6em;
+  padding: 5px;
 }
