@@ -6,3 +6,5 @@
 
 / HomeR GET POST
 /NewToAustralia NewToAustraliaR GET
+/Dashboard DashboardR GET
+/MentorProfile MentorProfileR GET
