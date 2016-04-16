@@ -5,17 +5,6 @@
             <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More
 
 
-<section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Join a friendly welcoming community!
-                <hr class="light">
-                <p class="text-faded">
-                    At foot in the door we bring feet to doors.
-                <a href="#services" class="page-scroll btn btn-default btn-xl">Join us!
-
-
 <section id="services">
     <div class="container">
         <div class="row">
@@ -29,8 +18,9 @@
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-diamond wow bounceIn text-primary">
-                    <h3>New To Australia
-                    <p class="text-muted">Our templates are updated regularly so they don't break.
+                    <h3>
+                        <a href=@{NewToAustraliaR}>New To Australia
+                    <p class="text-muted">Find a mentor to help set you up for a job relevant to your profession or industry.
 
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
