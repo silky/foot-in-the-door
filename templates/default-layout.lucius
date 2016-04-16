@@ -46,9 +46,20 @@ h2.message {
   text-align: center;
 }
 
-
 input.big {
   padding: 4px;
   font-size: 1.5em;
   width: 80%;
+}
+
+div.biz {
+  background: #FF9E99;
+}
+
+div.usm {
+  background: #99FAFF;
+}
+
+div.esm {
+  background: #D199FF;
 }

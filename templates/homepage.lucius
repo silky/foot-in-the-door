@@ -12,17 +12,6 @@ div.action span {
   margin: auto;
 }
 
-div.biz {
-  background: #FF9E99;
-}
-
-div.usm {
-  background: #99FAFF;
-}
-
-div.esm {
-  background: #D199FF;
-}
 
 div.event {
   width: 330px;
