@@ -5,6 +5,19 @@ import Yesod.Form.Bootstrap3 (BootstrapFormLayout (..), renderBootstrap3,
                               withSmallInput)
 import Text.Julius (RawJS (..))
 
+
+data Event = EV {
+      eName  :: Text
+    , eImage :: Text
+    , eDesc  :: Text
+  }
+
+upcomingEvents :: [Event]
+upcomingEvents = [
+      EV "Monthly FITD Meetup" "meetup.png" "Come join us at our regular meetup!"
+    , EV "ResumeGenie - Resume skills" "genie.png" "What makes a good resume? Find out from the genie-uses!"
+    , EV "LinkedWhat?" "linkedin.png" "What is LinkedIn and why should I be on it? Bimal explains!"
+  ]
 -- This is a handler function for the GET request method on the HomeR
 -- resource pattern. All of your resource patterns are defined in
 -- config/routes

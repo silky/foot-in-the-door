@@ -74,19 +74,21 @@ $newline never
             <span class="icon-bar">
             <span class="icon-bar">
             <span class="icon-bar">
-          <a class="navbar-brand page-scroll" href="#page-top">
-            <img src="/static/img/fitd-smaller.png" style="display: inline" /> Foot in the door
+          <a class="navbar-brand page-scroll" href=@{HomeR}>
+            <img src="/static/img/fitd-smaller.png" style="display: inline" /> Foot in the door!
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
+              <a.page-scroll href="#contact">Events
+            <li>
               <a.page-scroll href=@{NewToAustraliaR}>New to Australia
             <li>
-              <a.page-scroll href="#services">Interested in supporting my community
+              <a.page-scroll href="#services">Support my community
             <li>
-              <a.page-scroll href="#portfolio">Looking for skilled workers
+              <a.page-scroll href="#portfolio">Engage skilled workers
             <li>
-              <a.page-scroll href="#about">About
+              <a.page-scroll href="#contact">Contact
 
     ^{pageBody pc}
 
