@@ -2,5 +2,10 @@ module Handler.Dashboard where
 
 import Import
 
+
+
 getDashboardR :: Handler Html
-getDashboardR = error "Not yet implemented: getDashboardR"
+getDashboardR = do
+    defaultLayout $ do
+        setTitleI MsgSiteTitle
+        $(widgetFile "dashboard")
