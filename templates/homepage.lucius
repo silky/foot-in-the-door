@@ -18,6 +18,26 @@ footer {
 .input-sm {
     margin-left: 20px
 }
+
 h2.message {
-  text-align: center;
+}
+
+div.action {
+  margin: 5px;
+  padding: 5px;
+  width: 30%;
+  float: left;
+  height: 300px;
+}
+
+div.biz {
+  background: #FF9E99;
+}
+
+div.usm {
+  background: #99FAFF;
+}
+
+div.esm {
+  background: #D199FF;
 }

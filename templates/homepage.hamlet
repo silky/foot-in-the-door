@@ -2,13 +2,28 @@
   Foot in the door!
 
 <.page-header>
-  <h2 .message>Your feet are in the country, now get them in the door!
+  <h2.message>
+    Connecting skilled migrants with mentors and employment opportunities.
 
-<h3>Organisations
+<div.action.usm>
+  <span>
+    <h2> I'd love to work with you
+
+<div.action.esm>
+  <span>
+    <h2> How can I help
+
+<div.action.biz>
+  <span>
+    <h2> We want to work with you
+
+<br style="clear: both;" />
+
 
 <section.list-group>
   <p>
     Big photo; list of jobs available, comments by previous people
+
 
 <h3>Community
 
