@@ -1,5 +1,5 @@
 <h1.jumbotron>
-  Foot in the door!
+  <a href=@{HomeR}> Foot in the door!
 
 $maybe msg <- mmsg
   <div #message>#{msg}

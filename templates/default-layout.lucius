@@ -16,6 +16,15 @@ footer {
   padding: 10px;
 }
 
+a {
+  color: #3ba7ff;
+  padding: 3px;
+}
+
+a:hover {
+  background-color: #FDFFC7;
+}
+
 h1.jumbotron {
   color: #3ba7ff;
 }
