@@ -1,7 +1,63 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1>Foot in the door!
-            <hr />
             <p>Connecting skilled migrants with mentors and employment opportunities.
             <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More
+
+
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Join a friendly welcoming community!
+                <hr class="light">
+                <p class="text-faded">
+                    At foot in the door we bring feet to doors.
+                <a href="#services" class="page-scroll btn btn-default btn-xl">Join us!
+
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">At Your Service
+                <hr class="primary">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary">
+                    <h3>New To Australia
+                    <p class="text-muted">Our templates are updated regularly so they don't break.
+
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s">
+                    <h3>I want to help
+                    <p class="text-muted">You can use this theme as is, or you can make changes!
+
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s">
+                    <h3>Company with opportunities
+                    <p class="text-muted">We update dependencies to keep things fresh.
+
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Let's Get In Touch!
+                <hr class="primary">
+                <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x wow bounceIn">
+                <p>123-456-6789
+
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s">
+                <p>
+                  <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com
