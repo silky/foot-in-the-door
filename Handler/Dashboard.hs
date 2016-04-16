@@ -9,6 +9,18 @@ data Mentor = M {
     , mDesc :: Text
     }
 
+data Internship = ISHP {
+      ishpName  :: Text
+    , ishpImage :: Text
+    , ishpDesc  :: Text
+  }
+
+internships :: [Internship]
+internships = [
+      ISHP "ACME Civil Engineering" "civ.png" "Worked on roads? We want you."
+    , ISHP "ACME Gardening" "garden.png" "Love flowers? We love you!"
+  ]
+
 mentors :: [Mentor]
 mentors = [
       M "Joe" "joe.png" "I'm experienced with working in local hospitals and with the adminstration of hospitals"

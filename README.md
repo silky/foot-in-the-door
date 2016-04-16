@@ -6,6 +6,9 @@
 
 1. [stack](http://docs.haskellstack.org/en/stable/README/)
 1. The PostreSQL database (I'm using 9.4)
+1. A db called `fitd` and a user called `fitd-user` with password `password`. This can be
+  configured in `config/settings.yml`.
+
 
 ## Building
 
@@ -25,4 +28,4 @@ stack exec -- yesod devel
 1. Trello
 2. Example data
 3. ideas: community should approve companies
-          - 
+          -
