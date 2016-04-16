@@ -59,7 +59,7 @@
 
 <div class="container">
   <p> Here are local mentors in your area. Click on one to begin
-      a connection!
+      \ a connection!
   <div class="row">
   $forall m <- mentors
     <div class="col-lg-4 col-md-6 text-center">
