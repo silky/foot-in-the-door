@@ -1,16 +1,14 @@
-<h1.jumbotron>
-  Foot in the door!
-
 <.page-header>
   <h2.message>
     Connecting skilled migrants with mentors and employment opportunities.
 
-  <h2.message>
+  <h2>
     I am:
 
 <div.action.usm>
   <span>
-    <h2> New to Australia
+    <h2>
+      <a href=@{NewToAustraliaR}> New to Australia
 
 <div.action.esm>
   <span>

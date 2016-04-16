@@ -1,3 +1,7 @@
+<h1.jumbotron>
+  Foot in the door!
+
 $maybe msg <- mmsg
   <div #message>#{msg}
+
 ^{widget}
