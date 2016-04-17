@@ -26,6 +26,8 @@ library
                      Handler.NewToAustralia
                      Handler.Dashboard
                      Handler.MentorProfile
+                     Handler.Contact
+                     Handler.Chat
 
     if flag(dev) || flag(library-only)
         cpp-options:   -DDEVELOPMENT

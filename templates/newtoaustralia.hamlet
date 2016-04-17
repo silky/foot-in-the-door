@@ -4,34 +4,19 @@
       <div class="col-lg-8 col-lg-offset-2 text-center">
         <h2 class="section-heading">New to Australia!</h2>
         <hr class="light">
-        <p.text-faded>
-          <em>Welcome.
+        <h1> What's your profession?
 
-          Thanks for taking the interest to join our community; we
-          are looking forward to having you involved.
-<hr />
-
-<div class="container">
-  <div class="row">
-    <p>
-      We want to know what field of work interests you. where
-      do you see yourself working? Pick from the below and we
-      will proceed from there!
-
-    <label for="srch">Filter jobs by keywords
-    <input.big type="text" id="srch" />
-    <hr />
+  <div class="container">
+    <div class="row">
+      <label for="srch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input.big type="text" id="srch" />
 
 <div class="container">
   <div class="row">
   $forall p <- profList
-    <div class="col-lg-4 col-md-6 text-center prof-box">
-      <div class="service-box">
-        <h3>#{pName p}
-        <p class="text-muted">
-            #{pDesc p}
-
-<section>
-  <div class="container text-center">
-    <div class="call-to-action">
-      <a href=@{DashboardR} class="btn btn-default btn-xl wow tada">Continue
+    <a href=@{DashboardR}>
+      <div class="col-lg-4 col-md-6 text-center prof-box">
+        <div class="service-box">
+          <h3>#{pName p}
+          <p class="text-muted">
+              #{pDesc p}

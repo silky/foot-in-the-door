@@ -14,8 +14,9 @@
         <img src="/static/img/bilmur.jpg">
     <div class="col-lg-5 col-md-6 text-center">
       <div class="service-box">
-        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s">
-        <p class="text-muted">
-          Contact Bilmur
+        <a href=@{ContactR}>
+          <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s">
+          <p class="text-muted">
+            Contact Bilmur
         <hr />
         <p>Originally from Iran. Moved to Melbourne 5 years ago. I'm living in the northern suburbs with my wife and two kids. I look forward to connecting with you.

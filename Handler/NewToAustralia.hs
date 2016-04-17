@@ -16,8 +16,8 @@ profList = [
     , P "Doctor" "Medical practicioner, diagnosing patients."
     , P "Engineer" "Building machines, working on roads, electrical work."
     , P "Nurse" "Medial practicioner, working directly with patients and applying treatments."
-    , P "Software developer" "Working with computers; arranging 1s and 0s."
-    , P "Sports scientist" "Coaching, training athletes"
+    , P "Software Developer" "Working with computers; arranging 1s and 0s."
+    , P "Sports Scientist" "Coaching, training athletes"
   ]
 
 
