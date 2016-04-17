@@ -10,7 +10,7 @@ import Handler.Common
 upcomingEvents :: [Event]
 upcomingEvents = [
       EV "Monthly FITD Meetup" "meetup.png" "Come join us at our regular meetup!"
-    , EV "ResumeGenie - Resume skills" "genie.png" "What makes a good resume? Find out from the genie-uses!"
+    , EV "Seek n Teach" "genie.png" "If you'd like to practice speaking English, come and say hello!"
     , EV "LinkedWhat?" "linkedin.png" "What is LinkedIn and why should I be on it? Bimal explains!"
   ]
 -- This is a handler function for the GET request method on the HomeR

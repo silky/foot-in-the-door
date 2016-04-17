@@ -1,0 +1,7 @@
+section.testimonials {
+  background: #98AFC7;
+}
+
+.testimonial {
+  color: #461B7E
+}
