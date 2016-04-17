@@ -1,4 +1,4 @@
-FROM        fpco/stack-run:lts-5
+FROM        fpco/stack-build:lts-5
 MAINTAINER  Noon Silk <noonsilk+fitd@gmail.com>
 
 # Reference:
