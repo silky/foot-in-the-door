@@ -17,28 +17,22 @@ data Internship = ISHP {
 
 internships :: [Internship]
 internships = [
-      ISHP "ACME Nurse Shift Company" "civ.png" "Worked on roads? We want you."
-    , ISHP "ACME Local GP" "garden.png" "We are having an open day. Love flowers? We love you!"
+      ISHP "General Assembly" "ga.jpeg" "Teach software development"
   ]
 
 mentors :: [Mentor]
 mentors = [
-      M "Bilmur" "bilmur.png" "I'm experienced with working in local hospitals and with the adminstration of hospitals"
-    , M "Alice" "alice.png" "I am a doctor in Melbourne"
-    , M "Bob" "bob.png" "I am a doctor in Melbourne"
-    , M "Carlos" "carlos.png" "I am a doctor in Melbourne"
-    , M "David" "david.png" "I am a doctor in Melbourne"
-    , M "Edith" "edith.png" "I am a doctor in Melbourne"
-    , M "Fred" "fred.png" "I am a doctor in Melbourne"
-    , M "Georgia" "georgia.png" "I am a doctor in Melbourne"
+      M "Bilmur Khao" "bilmur-small.jpg" "I'm Bilmur, 37, Tech Lead"
+    , M "Alice Li" "alice-small.jpg" "I've been a BA here for 2 years"
+    , M "Hararo Mas" "hararo-small.jpg" "Hi. I'm a Java developer"
   ]
 
 
 upcomingEvents :: [Event]
 upcomingEvents = [
-      EV "Monthly Doctor Meetup" "meetup.png" "Come join us at our regular Doctor meetup!"
+      EV "Monthly Software Developer Meetup" "meetup.png" "Come join us at our regular Software Developer meetup!"
     , EV "DrResumeGenie - Resume skills" "genie.png" "DrResumeGenie is in."
-    , EV "Do doctors need LinkedIn?" "linkedin.png" "We survey peoples feeling on this matter."
+    , EV "Do Software Developers need LinkedIn?" "linkedin.png" "We survey peoples feeling on this matter."
   ]
 
 getDashboardR :: Handler Html

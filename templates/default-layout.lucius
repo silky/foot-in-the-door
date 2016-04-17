@@ -1,3 +1,19 @@
+section.new-to-australia {
+  background: #98AFC7;
+}
+
+aside.new-to-australia {
+  background: #98AFC7;
+}
+
+.select-me {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000000;
+  padding: 10px;
+  height: 300px;
+}
+
 div.prof, div.mentor {
   float: left;
   background: #eaeaea;

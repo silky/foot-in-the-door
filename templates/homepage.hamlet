@@ -1,42 +1,50 @@
 <header>
   <div class="header-content">
     <div class="header-content-inner">
-      <h3.on-top>
-        <span>Connecting skilled migrants with mentors and employment opportunities.
-      <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More
+      <h2.on-top>
+        <span>Connecting skilled migrants with mentors and jobs.
+      <a href="#about" class="btn btn-primary btn-xl page-scroll">Get Started
 
-
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our community
-        <hr class="primary">
+<br id="about">
 
 <div class="container">
   <div class="row">
     <div class="col-lg-4 col-md-6 text-center">
-      <div class="service-box">
-        <img src="/static/img/UnestablishedSkilledMigrant.jpg">
-        <h3>
-          <a href=@{NewToAustraliaR}>New to Australia
-        <p class="text-muted">
-            <em>Welcome!
-            Find a mentor to help set you up for a job relevant to your profession or industry.
+      <a href=@{NewToAustraliaR}>
+        <div class="service-box usertype">
+          <img src="/static/img/UnestablishedSkilledMigrant.jpg">
+          <h3>_{MsgNewToAustralia}
+          <p class="text-muted">
+              <em>Welcome!
+              Find a mentor to help set you up for a job relevant to your profession or industry.
 
     <div class="col-lg-4 col-md-6 text-center">
-      <div class="service-box">
-        <img src="/static/img/Mentor.jpg">
-        <h3>Support my community
-        <p class="text-muted">Help a skilled professional migrant get job ready and setup for success.
+      <a href="#">
+        <div class="service-box usertype">
+          <img src="/static/img/Mentor.jpg">
+          <h3>_{MsgMentor}
+          <p class="text-muted">Help a skilled professional migrant get job ready and setup for success.
 
     <div class="col-lg-4 col-md-6 text-center">
-      <div class="service-box">
-        <img src="/static/img/Business.jpg">
-        <h3>Engage skilled workers
-        <p class="text-muted">Find a talented professional your competition is overlooking!
+      <a href="#">
+        <div class="service-box usertype">
+          <img src="/static/img/Business.jpg">
+            <h3>_{MsgHiring}
+            <p class="text-muted">Find a talented professional your competition is overlooking!
 
-    <div class="col-lg-4 col-md-6 text-center">
+<br>
+<br>
+<br>
+<br>
+
+<div class="about">
+  <h5 class="about-details"> Foot in the door is a platform that connects professionally skilled refugees with local mentoring and internships. We use this two-tiered approach as foundation to set them up with successful careers within their profession.
+
+  <h5 class="about-details"> Many of those who come as refugees have professional skill sets but have difficulty finding meaning work in Australia. Some reasons for this include lack of networks, local experience and understanding Australian work culture.
+
+  <h5 class="about-details"> Foot in the door seeks to bridge this gap through creating a professional community network and specialised mentoring from people of a similar professional background.
+
+  <h5 class="about-details"> Businesses have an opportunity to connect through providing internships with an untapped and overlooked talent pool of talented and skilled professionals who are of refugee background.
 
 <section id="testimonials" class="testimonials">
   <div class="container">
@@ -48,11 +56,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6 text-center">
-        <div class="service-box">
+        <div class="testimonial-photo">
           <img src="/static/img/Testimonial.jpg">
 
-      <div class="col-lg-4 col-md-12 text-left">
-        <div class="service-box">
+      <div class="col-md-6 text-left">
+        <div class="testimonial-text">
           <p class="testimonial">
               _{MsgTestimonialFromPreviousUser_Body}
 
@@ -67,9 +75,9 @@
   <div class="row">
   $forall e <- upcomingEvents
     <div class="col-lg-4 col-md-6 text-center">
-      <div class="service-box">
+      <div class="service-box select-me">
+        <a href="#deets">
         <img src="/static/img/#{eImage e}">
-        <h3>
-          <a href="#deets">#{eName e}
+        <h3>#{eName e}
         <p class="text-muted">
             #{eDesc e}

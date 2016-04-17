@@ -1,24 +1,21 @@
-<aside class="bg-primary" id="new-to-australia">
+<aside class="new-to-australia" id="new-to-australia">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
         <br />
-        <h2 class="section-heading"><em>Bilmur Whyns</em>
+        <h2 class="section-heading"><em>Bilmur Khao</em>
         <p class="text-faded">
-          I am an experienced doctor. I have been working in a hospital in Dandenong for 2 years.
+          I'm Bilmur, 37, Tech Lead
 
 <div class="container">
   <div class="row">
     <div class="col-lg-5 col-md-6 text-center">
       <div class="service-box">
-        <img src="/static/img/Bilmur2.jpg">
+        <img src="/static/img/bilmur.jpg">
     <div class="col-lg-5 col-md-6 text-center">
       <div class="service-box">
         <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s">
         <p class="text-muted">
           Contact Bilmur
         <hr />
-        <p>Hello! I'm very happy to chat to people about
-            \ how I transferred my experience as a physician
-            \ back home into a valued position at my current
-            \ institution!
+        <p>Originally from Iran. Moved to Melbourne 5 years ago. I'm living in the northern suburbs with my wife and two kids. I look forward to connecting with you.
