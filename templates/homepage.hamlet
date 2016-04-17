@@ -21,7 +21,7 @@
         <h3>
           <a href=@{NewToAustraliaR}>New to Australia
         <p class="text-muted">
-            <em>Welcome.
+            <em>Welcome!
             Find a mentor to help set you up for a job relevant to your profession or industry.
 
     <div class="col-lg-4 col-md-6 text-center">
@@ -36,14 +36,32 @@
         <h3>Engage skilled workers
         <p class="text-muted">Find a talented professional your competition is overlooking!
 
+    <div class="col-lg-4 col-md-6 text-center">
+
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading testimonial">_{MsgTestimonialFromPreviousUser_Header}
+        <hr class="primary">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="service-box">
+          <img src="/static/img/Testimonial.jpg">
+
+      <div class="col-lg-4 col-md-12 text-left">
+        <div class="service-box">
+          <p class="testimonial">
+              _{MsgTestimonialFromPreviousUser_Body}
 
 <section id="events">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Upcoming events in our community
+        <h2 class="section-heading">Resources
         <hr class="primary">
-
 
 <div class="container">
   <div class="row">
