@@ -15,6 +15,7 @@ RUN apt-get update && apt-get -y install postgresql
 
 RUN mkdir -p /opt/ws/
 
+RUN stack build yesod-bin cabal-install
 RUN stack exec -- yesod keter
 COPY dist/bin/fitd-web /opt/ws/
 COPY static /opt/ws/static
