@@ -15,7 +15,7 @@ RUN apt-get update && apt-get -y install postgresql
 
 RUN mkdir -p /opt/ws/
 
-COPY ../dist/bin/fitd-web /opt/ws/
+COPY dist/bin/fitd-web /opt/ws/
 COPY static /opt/ws/static
 COPY config /opt/ws/config
 COPY config/live-settings.yml /opt/ws/config/settings.yml
