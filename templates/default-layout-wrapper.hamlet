@@ -84,16 +84,17 @@ $newline never
             <li>
               <a.page-scroll href=@{NewToAustraliaR}>New to Australia
             <li>
-              <a.page-scroll href="#services">Support my community
+              <a.page-scroll href="#services">Be a mentor
             <li>
-              <a.page-scroll href="#portfolio">Engage skilled workers
+              <a.page-scroll href="#portfolio">Discover skilled workers
             <li>
               <a.page-scroll href="#contact">Contact
 
     ^{pageBody pc}
 
+<hr>
 
-<section id="contact">
+<section id="contact" class="footer-background">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">

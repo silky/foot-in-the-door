@@ -1,8 +1,11 @@
 SiteTitle: Foot in the door!
 
 NewToAustralia: New to Australia
-EstablishedInAustralia: Working in Australia
-ABusiness: A Business
+Mentor: Be a mentor
+Hiring: Discover skilled workers
+
+Name: Anya
+Profession: Software Developer
 
 TestimonialFromPreviousUser_Header: Meet Lily…
 

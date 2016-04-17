@@ -473,8 +473,7 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-h3.on-top span {
-  background: black;
+h2.on-top span {
   line-height: 1.6em;
   padding: 5px;
 }

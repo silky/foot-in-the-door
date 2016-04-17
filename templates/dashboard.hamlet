@@ -1,15 +1,36 @@
-<aside class="bg-primary" id="new-to-australia">
+<aside class="new-to-australia" id="new-to-australia">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
         <br />
-        <h2 class="section-heading">Your dashboard: <em>Suzi</em>
+        <h2 class="section-heading">Your dashboard: <em>_{MsgName}</em>
 
 <section id="mentors">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Internships for: <em>Doctor</em> (<small><a href=@{NewToAustraliaR}>Change</a></small>)
+        <h2 class="section-heading">Mentors in my field: <em>_{MsgProfession}</em> (<small><a href=@{NewToAustraliaR}>Change</a></small>)
+        <hr class="primary">
+
+
+<div class="container">
+  <p> Here are local mentors in your area. Click on one to begin
+      \ a connection!
+  <div class="row">
+  $forall m <- mentors
+    <a href=@{MentorProfileR}>
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="service-box mentor">
+          <img src="/static/img/#{mImg m}">
+          #{mName m}
+          <p class="text-muted">
+            #{mDesc m}
+
+<section id="jobs">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Internships for: <em>_{MsgProfession}</em> (<small><a href=@{NewToAustraliaR}>Change</a></small>)
         <hr class="primary">
 
 <div class="container">
@@ -20,7 +41,7 @@
   <div class="row">
   $forall ishp <- internships
     <div class="col-lg-4 col-md-6 text-center">
-      <div class="service-box">
+      <div class="service-box select-me">
         <img src="/static/img/#{ishpImage ishp}">
         <h3>
           <a href="#deets">#{ishpName ishp}
@@ -28,42 +49,21 @@
             #{ishpDesc ishp}
 
 
-<section id="mentors">
+<section id="events">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Community events in my field: <em>Doctor</em> (<small><a href=@{NewToAustraliaR}>Change</a></small>)
+        <h2 class="section-heading">Resources in your profession: <em>_{MsgProfession}</em> (<small><a href=@{NewToAustraliaR}>Change</a></small>)
         <hr class="primary">
 
 <div class="container">
-  <p> Here are local events in your area. Come and join your community!
+  <p> Come and join your community!
   <div class="row">
   $forall e <- upcomingEvents
     <div class="col-lg-4 col-md-6 text-center">
-      <div class="service-box">
+      <div class="service-box select-me">
         <img src="/static/img/#{eImage e}">
         <h3>
           <a href="#deets">#{eName e}
         <p class="text-muted">
             #{eDesc e}
-
-
-
-<section id="mentors">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Mentors in my field: <em>Doctor</em> (<small><a href=@{NewToAustraliaR}>Change</a></small>)
-        <hr class="primary">
-
-
-<div class="container">
-  <p> Here are local mentors in your area. Click on one to begin
-      \ a connection!
-  <div class="row">
-  $forall m <- mentors
-    <div class="col-lg-4 col-md-6 text-center">
-      <div class="service-box">
-        <a href=@{MentorProfileR}>#{mName m}
-        <p class="text-muted">
-            #{mDesc m}

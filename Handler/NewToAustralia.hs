@@ -12,12 +12,12 @@ data Profession = P {
 profList :: [Profession]
 profList = [
       P "Accountant" "You've worked with handling money and paying company accounts."
-    , P "Engineer" "Building machines, working on roads, electrical work."
-    , P "Doctor" "Medical practicioner, diagnosing patients."
-    , P "Nurse" "Medial practicioner, working directly with patients and applying treatments."
     , P "Architect" "Building construction and planning layouts of towns."
-    , P "Sports scientist" "Coaching, training athletes"
+    , P "Doctor" "Medical practicioner, diagnosing patients."
+    , P "Engineer" "Building machines, working on roads, electrical work."
+    , P "Nurse" "Medial practicioner, working directly with patients and applying treatments."
     , P "Software developer" "Working with computers; arranging 1s and 0s."
+    , P "Sports scientist" "Coaching, training athletes"
   ]
 
 

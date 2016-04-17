@@ -2,6 +2,35 @@ section.testimonials {
   background: #98AFC7;
 }
 
+.about {
+  background: #808080;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.about-details {
+  margin: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.usertype {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000000;
+  padding: 20px;
+  height: 475px;
+}
+
 .testimonial {
   color: #461B7E
+}
+
+.testimonial-photo {
+    margin: 50px auto 0;
+    max-width: 400px;
+}
+
+.testimonial-text {
+    margin: 50px auto 0;
 }
