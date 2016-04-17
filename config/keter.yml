@@ -21,7 +21,9 @@ stanzas:
       # You can specify one or more hostnames for your application to respond
       # to. The primary hostname will be used for generating your application
       # root.
+      - "*.elasticbeanstalk.com"
       - foot-in-the-door.org
+      - www.foot-in-the-door.org
 
     # Enable to force Keter to redirect to https
     # Can be added to any stanza
@@ -35,16 +37,6 @@ stanzas:
 
     # Uncomment to turn on directory listings.
     # directory-listing: true
-
-  # Redirect plain domain name to www.
-  - type: redirect
-
-    hosts:
-      - foot-in-the-door.org
-    actions:
-      - host: www.foot-in-the-door.org
-        # secure: false
-        # port: 80
 
     # Uncomment to switch to a non-permanent redirect.
     # status: 303
@@ -64,3 +56,7 @@ stanzas:
 # the following line.
 # plugins:
 #   postgres: true
+plugins:
+    postgres:
+        - server: 172.17.42.1
+          port: 5432
