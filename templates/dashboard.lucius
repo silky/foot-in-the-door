@@ -5,3 +5,7 @@
   padding: 10px;
   height: 400px;
 }
+
+section.jobs {
+  background: #F7E4DA;
+}

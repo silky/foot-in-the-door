@@ -8,3 +8,5 @@
 /NewToAustralia NewToAustraliaR GET
 /Dashboard      DashboardR      GET
 /MentorProfile  MentorProfileR  GET
+/Contact/ ContactR GET
+/Chat/ ChatR GET

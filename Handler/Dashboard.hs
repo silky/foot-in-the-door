@@ -17,7 +17,9 @@ data Internship = ISHP {
 
 internships :: [Internship]
 internships = [
-      ISHP "General Assembly" "ga.jpeg" "Teach software development"
+      ISHP "Amazon" "amazon.png" "Join our AWS team"
+    , ISHP "General Assembly" "ga.jpeg" "Teach software development"
+    , ISHP "Telstra" "telstra.jpg" "Looking for a tester"
   ]
 
 mentors :: [Mentor]

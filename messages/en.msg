@@ -6,6 +6,7 @@ Hiring: Discover skilled workers
 
 Name: Anya
 Profession: Software Developer
+Field: Software Development
 
 TestimonialFromPreviousUser_Header: Meet Lily…
 
