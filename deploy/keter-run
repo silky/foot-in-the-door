@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# TODO: Change the user running this
+exec /opt/keter/bin/keter /opt/keter/etc/keter-config.yaml
