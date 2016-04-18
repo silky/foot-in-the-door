@@ -4,7 +4,7 @@
 
 # About
 
-This is a project we completed as part of [Techfugee](http://techfugees.com/) Melbourne 2016.
+This is a project we completed as part of [Techfugees](http://techfugees.com/) Melbourne 2016.
 
 The finished submission can be found [here](http://devpost.com/software/foot-in-the-door).
 
